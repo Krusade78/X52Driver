@@ -1,0 +1,4 @@
+DIRS= \
+     xh_vmd \
+     xh_vmdf \
+     xusb_hid 

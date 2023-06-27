@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="botones.c">
+      <Filter>Fuentes</Filter>
+    </ClCompile>
+    <ClCompile Include="control.c">
+      <Filter>Fuentes</Filter>
+    </ClCompile>
+    <ClCompile Include="ejes.c">
+      <Filter>Fuentes</Filter>
+    </ClCompile>
+    <ClCompile Include="entradahid.c">
+      <Filter>Fuentes</Filter>
+    </ClCompile>
+    <ClCompile Include="hidfilter.c">
+      <Filter>Fuentes</Filter>
+    </ClCompile>
+    <ClCompile Include="ioctl.c">
+      <Filter>Fuentes</Filter>
+    </ClCompile>
+    <ClCompile Include="IoTargets.c">
+      <Filter>Fuentes</Filter>
+    </ClCompile>
+    <ClCompile Include="acciones.c">
+      <Filter>Fuentes</Filter>
+    </ClCompile>
+    <ClCompile Include="cola.c">
+      <Filter>Fuentes</Filter>
+    </ClCompile>
+    <ClCompile Include="reports.c">
+      <Filter>Fuentes</Filter>
+    </ClCompile>
+    <ClCompile Include="x52.c">
+      <Filter>Fuentes</Filter>
+    </ClCompile>
+    <ClCompile Include="mapa.c">
+      <Filter>Fuentes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="botones.h">
+      <Filter>Encabezados</Filter>
+    </ClInclude>
+    <ClInclude Include="control.h">
+      <Filter>Encabezados</Filter>
+    </ClInclude>
+    <ClInclude Include="ejes.h">
+      <Filter>Encabezados</Filter>
+    </ClInclude>
+    <ClInclude Include="entradahid.h">
+      <Filter>Encabezados</Filter>
+    </ClInclude>
+    <ClInclude Include="hidfilter.h">
+      <Filter>Encabezados</Filter>
+    </ClInclude>
+    <ClInclude Include="ioctl.h">
+      <Filter>Encabezados</Filter>
+    </ClInclude>
+    <ClInclude Include="IoTargets.h">
+      <Filter>Encabezados</Filter>
+    </ClInclude>
+    <ClInclude Include="acciones.h">
+      <Filter>Encabezados</Filter>
+    </ClInclude>
+    <ClInclude Include="cola.h">
+      <Filter>Encabezados</Filter>
+    </ClInclude>
+    <ClInclude Include="reports.h">
+      <Filter>Encabezados</Filter>
+    </ClInclude>
+    <ClInclude Include="x52.h">
+      <Filter>Encabezados</Filter>
+    </ClInclude>
+    <ClInclude Include="mapa.h">
+      <Filter>Encabezados</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hidfilter.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Fuentes">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Encabezados">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+</Project>

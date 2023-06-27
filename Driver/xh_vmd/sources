@@ -1,0 +1,9 @@
+TARGETNAME=xh_vmd
+TARGETTYPE=DRIVER
+TARGET_DESTINATION=wdf
+
+TARGETLIBS=$(DDK_LIB_PATH)\hidclass.lib
+
+SOURCES=VHidMini.c \
+	vhidmini.rc
+

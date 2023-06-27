@@ -1,0 +1,23 @@
+TARGETNAME=xh_vmdf
+TARGETTYPE=DRIVER
+TARGET_DESTINATION=wdf
+
+C_DEFINES = $(C_DEFINES) /DPRO
+
+KMDF_VERSION_MAJOR=1
+
+TARGETLIBS=$(DDK_LIB_PATH)\wdmsec.lib
+
+SOURCES=hidfilter.rc	\
+		ioctl.c		\
+		control.c	\
+		iotargets.c \
+		entradahid.c \
+		ejes.c \
+		botones.c \
+		acciones.c \
+		cola.c \
+		reports.c \
+		x52.c \
+		mapa.c \
+		hidfilter.c

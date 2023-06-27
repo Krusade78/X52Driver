@@ -1,0 +1,13 @@
+TARGETNAME=xusb_hid
+TARGETTYPE=DRIVER
+TARGET_DESTINATION=wdf
+
+C_DEFINES = $(C_DEFINES) /DPRO
+
+KMDF_VERSION_MAJOR=1
+
+TARGETLIBS=$(DDK_LIB_PATH)\wdmsec.lib
+
+SOURCES=hidfilter.c     \
+        hidfilter.rc	\
+		control.c
